@@ -1260,8 +1260,8 @@ var PptxGenJS = function () {
             contain: function (imgSize, boxDim) {
                 var imgRatio = imgSize.h / imgSize.w,
                     boxRatio = boxDim.h / boxDim.w,
-                    widthBased = boxRatio > imgRatio;
-                width = widthBased ? boxDim.w : (boxDim.h / imgRatio),
+                    widthBased = boxRatio > imgRatio,
+                    width = widthBased ? boxDim.w : (boxDim.h / imgRatio),
                     height = widthBased ? (boxDim.w * imgRatio) : boxDim.h,
                     hzPerc = Math.round(1e5 * 0.5 * (1 - boxDim.w / width)),
                     vzPerc = Math.round(1e5 * 0.5 * (1 - boxDim.h / height));
