@@ -5,7 +5,7 @@
 		"name": "Brent Ely",
 		"url": "https://github.com/gitbrent/"
 	},
-	"description": "JavaScript framework that creates PowerPoint (pptx) presentations",
+	"description": "JavaScript framework that creates PowerPoint (pptx) presentations. Package was edited for JetLab (ES6)",
 	"homepage": "https://gitbrent.github.io/PptxGenJS/",
 	"license": "MIT",
 	"main": "dist/pptxgen.js",
@@ -30,7 +30,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/gitbrent/PptxGenJS.git"
+		"url": "git+http://gitlab-dev.snm.snecma/AIS/PptxGenJS.git"
 	},
 	"keywords": [
 		"javascript",
