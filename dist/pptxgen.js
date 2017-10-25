@@ -3509,8 +3509,6 @@ var PptxGenJS = function () {
                     paragraphPropXml += ' lvl="' + textObj.options.indentLevel + '"';
                 }
 
-                // Set core XML for use below
-                paraPropXmlCore = paragraphPropXml;
 
                 // OPTION: bullet
                 // NOTE: OOXML uses the unicode character set for Bullets
